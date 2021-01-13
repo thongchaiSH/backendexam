@@ -209,6 +209,7 @@ docker-compose version 1.25.4, build 8d51620a
 ```
 ./build.sh
 ```
+![](images/docker2.jpg)
 หากไม่ผ่านให้ใช้คำสั่ง
 ```
 docker build -t backend .

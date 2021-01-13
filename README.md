@@ -40,6 +40,8 @@ Json Response
   "status": "success"
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
 | 201  |  Invalid credentials. | Username or password incorrect.  |
 ```json
 {
@@ -49,6 +51,8 @@ Json Response
   "info": null
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
 | 500  | Stack trace error  | Exception error  |
 
 ```json
@@ -110,6 +114,8 @@ Json Response
   "status": "success"
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
 | 201  |  Salary is lower than required. | จำนวนเงินเดือนน้อยกว่า 15,000.  |
 ```json
 {
@@ -119,6 +125,8 @@ Json Response
   "info": "Salary below 15000."
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
 | 202  |  Information entered is incorrect. | ข้อมูลไม่ถูกต้อง เช่น (Username ถูกใช้แล้ว , เบอร์โทรศัพท์ไม่ถูกต้อง/ถูกใช้แล้ว)  |
 ```json
 {
@@ -128,6 +136,8 @@ Json Response
   "info": "Username has already been used."
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
 | 500  | Stack trace error  | Exception error  |
 ```json
 {
@@ -146,7 +156,11 @@ Ex. Curl
 ```
 curl -X GET "http://localhost:9999/Engine/api/user" -H "accept: */*" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aG9uZ2NoYWkiLCJpYXQiOjE2MTA1NzExODgsImV4cCI6MTYxMDU4OTE4OH0._Z19yoaDfjyc-9wEzegS_L_dl3So94YPt5qUXeAcml8"
 ```
+
 Json Response
+|  Code | Message  | Description   |  
+|---|---|---|
+| 200  | success.  | สำเร็จ  |
 ```json
 {
   "message": "success.",
@@ -176,6 +190,10 @@ Json Response
   "status": "success"
 }
 ```
+|  Code | Message  | Description   |  
+|---|---|---|
+| 500  | Stack trace error  | Exception error  |
+
 # Installation
 ## Required
 - Docker version 19.03.3 or greater

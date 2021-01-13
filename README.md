@@ -14,7 +14,7 @@
 |  Registration | http://localhost:9999/Engine/api/user/register    | All   |  
 |  User | http://localhost:9999/Engine/api/user     | Authenticate   |  
 
-### **Authentication**
+### **API Authentication**
 HTTP Method : Post  
 URL : http://localhost:9999/Engine/authentication/login  
 
@@ -64,7 +64,7 @@ Json Response
 }
 ```
 
-### **Registration**
+### **API Registration**
 HTTP Method : Post  
 URL : http://localhost:9999/Engine/api/user/register
 Json Request Model
@@ -148,7 +148,7 @@ Json Response
 }
 ```
 
-### **User**
+### **API User**
 HTTP Method : Get  
 URL : http://localhost:9999/Engine/api/user  
 HTTP Header Authorization

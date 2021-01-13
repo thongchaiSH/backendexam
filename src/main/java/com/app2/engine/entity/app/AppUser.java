@@ -27,6 +27,7 @@ public class AppUser extends BaseEntity {
     private String address;     //ที่อยู่
 
     @Email
+    @NotNull
     private String email;       //Email
 
     @NotNull

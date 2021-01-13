@@ -1,8 +1,8 @@
 # Content
-- [Designed](#Designed)  
+- [Design](#Design)  
   - [Flow](#Flow)
   - [Diagram](#ER-Diagram)
-  - [Api Designed](#Api-Designed)
+  - [Api Design](#Api-Design)
     - [Authentication](#API-Authentication)
     - [Registration](#API-Registration)
     - [User](#API-User)
@@ -10,14 +10,14 @@
 - [Usage](#Usage) 
 
 
-# Designed
+# Design
 ## Flow
 ![](images/flow.png)
 
 ## ER Diagram
 ![](images/er.png)
 
-## Api Designed
+## Api Design
 ### **API Permission**
 |  Flow | URL  | Permistion   |  
 |---|---|---|

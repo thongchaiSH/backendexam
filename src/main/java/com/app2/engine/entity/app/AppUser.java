@@ -37,6 +37,7 @@ public class AppUser extends BaseEntity {
     @NotNull
     private Double salary;      //เงินเดือน
 
+    @NotNull
     @Column(unique = true,length = 12)
     private String refCode;
 

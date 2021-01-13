@@ -7,6 +7,6 @@ RUN apt-get clean && apt-get -y update && apt-get install -y locales && locale-g
 RUN locale-gen en_US.UTF-8
 ENV TZ=Asia/Bangkok
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-ARG JAR_FILE=target/engine-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=build/engine-0.0.1-SNAPSHOT.jar
 COPY ${JAR_FILE} engine.jar
 ENTRYPOINT ["java","-jar","-Dserver.port=8080","/engine.jar"]

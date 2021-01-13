@@ -176,10 +176,6 @@ Json Response
   "status": "success"
 }
 ```
-
-
-# Description
-
 # Installation
 ## Required
 - Docker version 19.03.3 or greater
@@ -195,6 +191,12 @@ docker-compose version 1.25.4, build 8d51620a
 ```
 ./build.sh
 ```
+หากไม่ผ่านให้ใช้คำสั่ง
+```
+docker build -t backend .
+docker-compose up
+```
+
 ![](images/docker1.jpg)
 ### Step2 : Test via browser
 ทดสอบเข้า Service โดยผ่าน URL http://localhost:9999/Engine/swagger-ui.html จะพบหน้าจอนี้
